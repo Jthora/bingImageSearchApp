@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE7AFA021E7C1E300307B0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7AF9F21E7C1E300307B0A /* AppDelegate.swift */; };
+		FAE7AFA221E7C1E300307B0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7AFA121E7C1E300307B0A /* ViewController.swift */; };
+		FAE7AFA521E7C1E300307B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE7AFA321E7C1E300307B0A /* Main.storyboard */; };
+		FAE7AFA821E7C1E300307B0A /* BingSearchApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAE7AFA621E7C1E300307B0A /* BingSearchApp.xcdatamodeld */; };
+		FAE7AFAA21E7C1E800307B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE7AFA921E7C1E800307B0A /* Assets.xcassets */; };
+		FAE7AFAD21E7C1E800307B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE7AFAB21E7C1E800307B0A /* LaunchScreen.storyboard */; };
+		FAE7AFB821E7C1E800307B0A /* BingSearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7AFB721E7C1E800307B0A /* BingSearchAppTests.swift */; };
+		FAE7AFC321E7C1E800307B0A /* BingSearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7AFC221E7C1E800307B0A /* BingSearchAppUITests.swift */; };
+		FAE7AFD121E7CA3C00307B0A /* BingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7AFD021E7CA3C00307B0A /* BingClient.swift */; };
+		FAE7AFEB21E7D07C00307B0A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7AFE321E7D07200307B0A /* Alamofire.framework */; };
+		FAE7AFEC21E7D07C00307B0A /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7AFE321E7D07200307B0A /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FAE7AFED21E7D07C00307B0A /* RxAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7AFE521E7D07300307B0A /* RxAlamofire.framework */; };
+		FAE7AFEE21E7D07C00307B0A /* RxAlamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7AFE521E7D07300307B0A /* RxAlamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FAE7AFEF21E7D07C00307B0A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7AFE621E7D07300307B0A /* RxCocoa.framework */; };
+		FAE7AFF021E7D07C00307B0A /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7AFE621E7D07300307B0A /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FAE7AFF121E7D07C00307B0A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7AFE421E7D07200307B0A /* RxSwift.framework */; };
+		FAE7AFF221E7D07C00307B0A /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7AFE421E7D07200307B0A /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FAE7AFF521E7D26B00307B0A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7AFF421E7D26A00307B0A /* FBSDKLoginKit.framework */; };
+		FAE7AFF721E7D27200307B0A /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7AFF421E7D26A00307B0A /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FAE7AFFA21E7DA7F00307B0A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7AFF821E7DA6200307B0A /* FBSDKCoreKit.framework */; };
+		FAE7AFFB21E7DA7F00307B0A /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7AFF821E7DA6200307B0A /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE7AFB421E7C1E800307B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE7AF9421E7C1E300307B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE7AF9B21E7C1E300307B0A;
+			remoteInfo = BingSearchApp;
+		};
+		FAE7AFBF21E7C1E800307B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE7AF9421E7C1E300307B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE7AF9B21E7C1E300307B0A;
+			remoteInfo = BingSearchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAE7AFF321E7D07C00307B0A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FAE7AFF221E7D07C00307B0A /* RxSwift.framework in Embed Frameworks */,
+				FAE7AFFB21E7DA7F00307B0A /* FBSDKCoreKit.framework in Embed Frameworks */,
+				FAE7AFF021E7D07C00307B0A /* RxCocoa.framework in Embed Frameworks */,
+				FAE7AFF721E7D27200307B0A /* FBSDKLoginKit.framework in Embed Frameworks */,
+				FAE7AFEC21E7D07C00307B0A /* Alamofire.framework in Embed Frameworks */,
+				FAE7AFEE21E7D07C00307B0A /* RxAlamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAE7AF9C21E7C1E300307B0A /* BingSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE7AF9F21E7C1E300307B0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAE7AFA121E7C1E300307B0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAE7AFA421E7C1E300307B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE7AFA721E7C1E300307B0A /* BingSearchApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BingSearchApp.xcdatamodel; sourceTree = "<group>"; };
+		FAE7AFA921E7C1E800307B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE7AFAC21E7C1E800307B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAE7AFAE21E7C1E800307B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE7AFB321E7C1E800307B0A /* BingSearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingSearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE7AFB721E7C1E800307B0A /* BingSearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingSearchAppTests.swift; sourceTree = "<group>"; };
+		FAE7AFB921E7C1E800307B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE7AFBE21E7C1E800307B0A /* BingSearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingSearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE7AFC221E7C1E800307B0A /* BingSearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingSearchAppUITests.swift; sourceTree = "<group>"; };
+		FAE7AFC421E7C1E800307B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE7AFD021E7CA3C00307B0A /* BingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingClient.swift; sourceTree = "<group>"; };
+		FAE7AFE321E7D07200307B0A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		FAE7AFE421E7D07200307B0A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
+		FAE7AFE521E7D07300307B0A /* RxAlamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxAlamofire.framework; sourceTree = "<group>"; };
+		FAE7AFE621E7D07300307B0A /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
+		FAE7AFF421E7D26A00307B0A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		FAE7AFF821E7DA6200307B0A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE7AF9921E7C1E300307B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7AFEF21E7D07C00307B0A /* RxCocoa.framework in Frameworks */,
+				FAE7AFF121E7D07C00307B0A /* RxSwift.framework in Frameworks */,
+				FAE7AFF521E7D26B00307B0A /* FBSDKLoginKit.framework in Frameworks */,
+				FAE7AFFA21E7DA7F00307B0A /* FBSDKCoreKit.framework in Frameworks */,
+				FAE7AFEB21E7D07C00307B0A /* Alamofire.framework in Frameworks */,
+				FAE7AFED21E7D07C00307B0A /* RxAlamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7AFB021E7C1E800307B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7AFBB21E7C1E800307B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE7AF9321E7C1E300307B0A = {
+			isa = PBXGroup;
+			children = (
+				FAE7AF9E21E7C1E300307B0A /* BingSearchApp */,
+				FAE7AFB621E7C1E800307B0A /* BingSearchAppTests */,
+				FAE7AFC121E7C1E800307B0A /* BingSearchAppUITests */,
+				FAE7AF9D21E7C1E300307B0A /* Products */,
+				FAE7AFD221E7CAF900307B0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE7AF9D21E7C1E300307B0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7AF9C21E7C1E300307B0A /* BingSearchApp.app */,
+				FAE7AFB321E7C1E800307B0A /* BingSearchAppTests.xctest */,
+				FAE7AFBE21E7C1E800307B0A /* BingSearchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE7AF9E21E7C1E300307B0A /* BingSearchApp */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7AF9F21E7C1E300307B0A /* AppDelegate.swift */,
+				FAE7AFA121E7C1E300307B0A /* ViewController.swift */,
+				FAE7AFD021E7CA3C00307B0A /* BingClient.swift */,
+				FAE7AFA321E7C1E300307B0A /* Main.storyboard */,
+				FAE7AFA921E7C1E800307B0A /* Assets.xcassets */,
+				FAE7AFAB21E7C1E800307B0A /* LaunchScreen.storyboard */,
+				FAE7AFAE21E7C1E800307B0A /* Info.plist */,
+				FAE7AFA621E7C1E300307B0A /* BingSearchApp.xcdatamodeld */,
+			);
+			path = BingSearchApp;
+			sourceTree = "<group>";
+		};
+		FAE7AFB621E7C1E800307B0A /* BingSearchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7AFB721E7C1E800307B0A /* BingSearchAppTests.swift */,
+				FAE7AFB921E7C1E800307B0A /* Info.plist */,
+			);
+			path = BingSearchAppTests;
+			sourceTree = "<group>";
+		};
+		FAE7AFC121E7C1E800307B0A /* BingSearchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7AFC221E7C1E800307B0A /* BingSearchAppUITests.swift */,
+				FAE7AFC421E7C1E800307B0A /* Info.plist */,
+			);
+			path = BingSearchAppUITests;
+			sourceTree = "<group>";
+		};
+		FAE7AFD221E7CAF900307B0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7AFF821E7DA6200307B0A /* FBSDKCoreKit.framework */,
+				FAE7AFF421E7D26A00307B0A /* FBSDKLoginKit.framework */,
+				FAE7AFE321E7D07200307B0A /* Alamofire.framework */,
+				FAE7AFE521E7D07300307B0A /* RxAlamofire.framework */,
+				FAE7AFE621E7D07300307B0A /* RxCocoa.framework */,
+				FAE7AFE421E7D07200307B0A /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			path = BingSearchApp/Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE7AF9B21E7C1E300307B0A /* BingSearchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE7AFC721E7C1E800307B0A /* Build configuration list for PBXNativeTarget "BingSearchApp" */;
+			buildPhases = (
+				FAE7AF9821E7C1E300307B0A /* Sources */,
+				FAE7AF9921E7C1E300307B0A /* Frameworks */,
+				FAE7AF9A21E7C1E300307B0A /* Resources */,
+				FAE7AFF321E7D07C00307B0A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BingSearchApp;
+			productName = BingSearchApp;
+			productReference = FAE7AF9C21E7C1E300307B0A /* BingSearchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE7AFB221E7C1E800307B0A /* BingSearchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE7AFCA21E7C1E800307B0A /* Build configuration list for PBXNativeTarget "BingSearchAppTests" */;
+			buildPhases = (
+				FAE7AFAF21E7C1E800307B0A /* Sources */,
+				FAE7AFB021E7C1E800307B0A /* Frameworks */,
+				FAE7AFB121E7C1E800307B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE7AFB521E7C1E800307B0A /* PBXTargetDependency */,
+			);
+			name = BingSearchAppTests;
+			productName = BingSearchAppTests;
+			productReference = FAE7AFB321E7C1E800307B0A /* BingSearchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAE7AFBD21E7C1E800307B0A /* BingSearchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE7AFCD21E7C1E800307B0A /* Build configuration list for PBXNativeTarget "BingSearchAppUITests" */;
+			buildPhases = (
+				FAE7AFBA21E7C1E800307B0A /* Sources */,
+				FAE7AFBB21E7C1E800307B0A /* Frameworks */,
+				FAE7AFBC21E7C1E800307B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE7AFC021E7C1E800307B0A /* PBXTargetDependency */,
+			);
+			name = BingSearchAppUITests;
+			productName = BingSearchAppUITests;
+			productReference = FAE7AFBE21E7C1E800307B0A /* BingSearchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE7AF9421E7C1E300307B0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jordan Trana";
+				TargetAttributes = {
+					FAE7AF9B21E7C1E300307B0A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FAE7AFB221E7C1E800307B0A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAE7AF9B21E7C1E300307B0A;
+					};
+					FAE7AFBD21E7C1E800307B0A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAE7AF9B21E7C1E300307B0A;
+					};
+				};
+			};
+			buildConfigurationList = FAE7AF9721E7C1E300307B0A /* Build configuration list for PBXProject "BingSearchApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE7AF9321E7C1E300307B0A;
+			productRefGroup = FAE7AF9D21E7C1E300307B0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE7AF9B21E7C1E300307B0A /* BingSearchApp */,
+				FAE7AFB221E7C1E800307B0A /* BingSearchAppTests */,
+				FAE7AFBD21E7C1E800307B0A /* BingSearchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE7AF9A21E7C1E300307B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7AFAD21E7C1E800307B0A /* LaunchScreen.storyboard in Resources */,
+				FAE7AFAA21E7C1E800307B0A /* Assets.xcassets in Resources */,
+				FAE7AFA521E7C1E300307B0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7AFB121E7C1E800307B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7AFBC21E7C1E800307B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE7AF9821E7C1E300307B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7AFA221E7C1E300307B0A /* ViewController.swift in Sources */,
+				FAE7AFA821E7C1E300307B0A /* BingSearchApp.xcdatamodeld in Sources */,
+				FAE7AFD121E7CA3C00307B0A /* BingClient.swift in Sources */,
+				FAE7AFA021E7C1E300307B0A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7AFAF21E7C1E800307B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7AFB821E7C1E800307B0A /* BingSearchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7AFBA21E7C1E800307B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7AFC321E7C1E800307B0A /* BingSearchAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE7AFB521E7C1E800307B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE7AF9B21E7C1E300307B0A /* BingSearchApp */;
+			targetProxy = FAE7AFB421E7C1E800307B0A /* PBXContainerItemProxy */;
+		};
+		FAE7AFC021E7C1E800307B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE7AF9B21E7C1E300307B0A /* BingSearchApp */;
+			targetProxy = FAE7AFBF21E7C1E800307B0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE7AFA321E7C1E300307B0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE7AFA421E7C1E300307B0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE7AFAB21E7C1E800307B0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE7AFAC21E7C1E800307B0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE7AFC521E7C1E800307B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE7AFC621E7C1E800307B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE7AFC821E7C1E800307B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4H7UN3F3K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BingSearchApp/Frameworks",
+				);
+				INFOPLIST_FILE = BingSearchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = app.ravelite.BingSearchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE7AFC921E7C1E800307B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4H7UN3F3K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BingSearchApp/Frameworks",
+				);
+				INFOPLIST_FILE = BingSearchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = app.ravelite.BingSearchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAE7AFCB21E7C1E800307B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4H7UN3F3K;
+				INFOPLIST_FILE = BingSearchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ravelite.BingSearchAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingSearchApp.app/BingSearchApp";
+			};
+			name = Debug;
+		};
+		FAE7AFCC21E7C1E800307B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4H7UN3F3K;
+				INFOPLIST_FILE = BingSearchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ravelite.BingSearchAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingSearchApp.app/BingSearchApp";
+			};
+			name = Release;
+		};
+		FAE7AFCE21E7C1E800307B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4H7UN3F3K;
+				INFOPLIST_FILE = BingSearchAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ravelite.BingSearchAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BingSearchApp;
+			};
+			name = Debug;
+		};
+		FAE7AFCF21E7C1E800307B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4H7UN3F3K;
+				INFOPLIST_FILE = BingSearchAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ravelite.BingSearchAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BingSearchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE7AF9721E7C1E300307B0A /* Build configuration list for PBXProject "BingSearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE7AFC521E7C1E800307B0A /* Debug */,
+				FAE7AFC621E7C1E800307B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE7AFC721E7C1E800307B0A /* Build configuration list for PBXNativeTarget "BingSearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE7AFC821E7C1E800307B0A /* Debug */,
+				FAE7AFC921E7C1E800307B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE7AFCA21E7C1E800307B0A /* Build configuration list for PBXNativeTarget "BingSearchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE7AFCB21E7C1E800307B0A /* Debug */,
+				FAE7AFCC21E7C1E800307B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE7AFCD21E7C1E800307B0A /* Build configuration list for PBXNativeTarget "BingSearchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE7AFCE21E7C1E800307B0A /* Debug */,
+				FAE7AFCF21E7C1E800307B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAE7AFA621E7C1E300307B0A /* BingSearchApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAE7AFA721E7C1E300307B0A /* BingSearchApp.xcdatamodel */,
+			);
+			currentVersion = FAE7AFA721E7C1E300307B0A /* BingSearchApp.xcdatamodel */;
+			path = BingSearchApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAE7AF9421E7C1E300307B0A /* Project object */;
+}
